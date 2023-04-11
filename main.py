@@ -48,7 +48,7 @@ def play():
     # Guessing portion while user has attempts remaining
     while lives > 0:
         # Inform user of attempts remaining 
-        print(f"You have {lives} attempts remaining.")
+        print(f"You have {lives} attempts remaining.\n")
 
         # User's guess to be compared
         guess = int(input("Make a guess: "))
@@ -65,7 +65,7 @@ def play():
 
         # Prompt user
         if lives > 0:
-            print("Guess again.")
+            print("Guess again.\n")
 
     # User lost
     if lives == 0:
